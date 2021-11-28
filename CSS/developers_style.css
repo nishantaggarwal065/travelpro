@@ -1,0 +1,191 @@
+#developers {
+	height: 100vh;
+	width: 100vw;
+}
+
+#text-developers {
+	height: 5%;
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#text-developers span {
+	color: white;
+	font-size: 2rem;
+	position: relative;
+	top: 65%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+#meet-the-team {
+	height: 15%;
+	width: 100%;
+	text-align: center;
+}
+
+#meet-the-team span {
+	color: white;
+	font-size: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+#developers-container {
+	height: 70%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#developer-nishant {
+	height: 75%;
+	width: 40%;
+	text-align: center;
+	transition: background-color 0.5s;
+	position: relative;
+}
+
+#image-nishant {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	top: 12%;
+}
+
+#image-nishant img {
+	height: 75%;
+	width: 55%;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+#hover-content-nishant {
+	height: 100%;
+	width:100%;
+	position: absolute;	
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 25px;
+	opacity: 0;
+	transition: opacity 0.5s;
+	padding-top: 70px;
+}
+
+#hover-content-nishant h1 {
+	font-size: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+#hover-content-nishant h2 {
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+#hover-content-nishant > * {
+	transform: translateY(100px);
+	transition: transform 0.5s;
+}
+
+#hover-content-nishant:hover > * {
+	transform: translateY(0px);
+}
+
+#hover-content-nishant:hover {
+	opacity: 1;
+}
+
+#developer-param {
+	height: 75%;
+	width: 40%;
+/*	border: 1px solid white;*/
+	border-radius: 25px;
+/*	background-color: rgba(255, 255, 255, 0.1);*/	
+	text-align: center;
+	transition: background-color 0.5s;
+	position: relative;
+}
+
+#image-param {
+	position: relative;
+	top: 12%;
+	height: 100%;
+	width: 100%;
+}
+
+#image-param img {
+	height: 75%;
+	width: 55%;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+#hover-content-param {
+	height: 100%;
+	width:100%;
+	position: absolute;	
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 25px;
+	opacity: 0;
+	transition: opacity 0.5s;
+	padding-top: 70px;
+}
+
+#hover-content-param h1 {
+	font-size: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+#hover-content-param h2 {
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+#hover-content-param > * {
+	transform: translateY(100px);
+	transition: transform 0.5s;
+}
+
+#hover-content-param:hover > * {
+	transform: translateY(0px);
+}
+
+#hover-content-param:hover {
+	opacity: 1;
+}
+
+.social-horizontal-list {
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
+	text-align: center;
+}
+
+.social-horizontal-list li {
+	display: inline-block;
+}
+
+.social-horizontal-list li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0, 0.4);
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin: 0px 15px; 
+	letter-spacing: 1px;
+	word-spacing: -0.5px;
+	transition: color 0.5s;
+}
+
+.social-horizontal-list li a:hover {
+	color: black;
+}
